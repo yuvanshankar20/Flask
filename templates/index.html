@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>hilkxvkjxz</h1>
+    <p>{{ content }}</p>
+
+    {% if content == "true" %}
+        <p>true</p>
+    {% else %}
+        <p>false</p>
+    {% endif %}
+
+    {% for i in range(10) %}
+        {% if i % 2 == 0 %}
+            <p>{{ i }}</p>
+        {% endif %}
+    {% endfor %}
+</body>
+</html>

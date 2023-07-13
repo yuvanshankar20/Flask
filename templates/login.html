@@ -1,0 +1,9 @@
+{%extends "base2.html"%}
+{%block title  %}login page{% endblock  %}
+{%block content%}
+<form action="http://127.0.0.1:5000/login" method="post">
+    <p>Name</p>
+    <p><input type="text" name="nm"/></p>
+    <p><input type="submit" name="submit"/></p>
+</form>
+{%endblock%}
